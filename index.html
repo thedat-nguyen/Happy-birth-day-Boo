@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>happy birthday Boo</title>
+  <script src="./firework/js/src.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: black; /* Nền màu đen */
+    }
+    .typing {
+      border-right: 2px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center justify-center h-screen text-white">
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-4"> From With Love LS 3767 ❤️ </h1>
+    <div id="clock" class="text-6xl font-mono text-blue-400">23:59:50</div>
+    <div id="message" class="mt-4 text-xl font-bold text-green-400 hidden">
+      <span id="line1" class="typing"></span>
+      <br>
+      <span id="line2" class="typing"></span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="absolute bottom-4 text-gray-400 text-sm">
+    <p>Design & Developer by © thedat-nguyen</p>
+  </footer>
+</body>
+</html>
